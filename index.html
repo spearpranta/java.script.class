@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Properties</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="stylesheet" href="swiper.min.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+
+	    <style> 
+     img{
+        width: 50%;
+        height: 50vh;
+        margin: 0 auto;
+     }
+      .container img{
+        width: 100%;
+       
+     }
+    </style>
+
+</head>
+<body>
+
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="https://www.w3schools.com/css/img_fjords.jpg" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Polarlicht_2_kmeans_16_large.png" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz9FpRVpejHIwZ2WXpeTgxeQ4UFfoNvWUj-Z5r4aKk37AvzymZ" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR88twgXHPwFfkluNdN2ssKFbcBP3v5PBtFqqbSrD5MWKONzpK2Vw" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4m4-tLMNqaSkQDgBY7GNqa5IpnjF8WNtydtFseX37SL9QHa7xIg" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQrjr_RxTZY1x30vZ-FYOWrCwJm4JwJK_QBuj0nExUGpJk98y1Pjw" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUSaoTcU7EiRBKlB26__J_YhAXK5WUjffGO9lQZ5bHgJs5Boybzg" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRerU-uO32iYPxds439qqmP9zC_dHrr8xu_FWPubXTz7YR5C82X" class="img-responsive"></a></div>
+            <div class="swiper-slide"><a href="#"><img src="http://www.wallpaperhd.pk/wp-content/uploads/2015/08/3d-nature-wallpaper.jpg" class="img-responsive"></a></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </div>
+
+<div data-js="hero-demo">
+     
+  <div class="container"> 
+    <div class="filters">
+      <button class="button is-checked" data-filter="*">show all</button>
+      <button class="button" data-filter=".metal">metal</button>
+      <button class="button" data-filter=".transition">transition</button>
+      <button class="button" data-filter=".im">&#x2013;ium</button>
+    </div> 
+   </div> 
+
+  <div class="container">
+      <div class="row grid">
+          <div class="element-item col-sm-3 metal"><a href="#"><img src="http://2.bp.blogspot.com/-uA2yICw3TGQ/Ueqpi756owI/AAAAAAAACpI/vwllobsQtv0/s1600/Love-Quote-Timeline-Cover-Facebook-124.jpg" class="img-responsive"></a></div>
+          <div class="element-item col-sm-3 transition"><a href="#"><img src="http://www.wallpaperhd.pk/wp-content/uploads/2015/08/3d-nature-wallpaper.jpg" class="img-responsive"></a></div>
+          <div class="element-item col-sm-3 im"><a href="#"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcThn6lBx3tXBhpYWunxuN-y27tbcXYLDXei4FiMqoDBl6CEneJM" class="img-responsive"></a></div>
+
+      </div>
+
+  </div>
+
+</div>
+
+    <script src="swiper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
+      <script src="isotope-docs.min.js?3"></script>
+
+
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 0,
+        freeMode: true,
+        loop:true,
+        autoplay:2500,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    });
+    </script>
+</body>
+</html>
